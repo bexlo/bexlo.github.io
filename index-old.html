@@ -84,11 +84,26 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav alt-font">
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="biz-warehouse.html" class="nav-link">business area</a>
+                  <a href="#" class="nav-link">business area</a>
                   <i
                     class="fa fa-angle-down dropdown-toggle"
                     data-bs-toggle="dropdown"
                   ></i>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown">
+                      <a href="biz-warehouse.html">warehouse business</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="biz-smartfactory.html">smart factory</a>
+                    </li>
+                    <!--li class="dropdown">
+                      <a href="biz-smartwarehouse.html">smart warehouse</a>
+                    </li>
+                    <li-- class="dropdown">
+                      <a href="biz-software.html">software reselling</a>
+                    </li-->
+                  </ul>
+                </li>
 
                 <li class="nav-item dropdown simple-dropdown">
                   <a href="product-warehouse.html" class="nav-link"
@@ -98,6 +113,20 @@
                     class="fa fa-angle-down dropdown-toggle"
                     data-bs-toggle="dropdown"
                   ></i>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown">
+                      <a href="product-warehouse.html">warehouse services</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="product-operatochef.html">operato chef</a>
+                    </li>
+                    <!--li class="dropdown">
+                      <a href="product-operatowms.html">operato WMS</a>
+                    </li>
+                    <li-- class="dropdown">
+                      <a href="product-xr.html">AR/VR software</a>
+                    </li-->
+                  </ul>
                 </li>
 
                 <li class="nav-item dropdown simple-dropdown">
@@ -369,38 +398,190 @@
               class="col-12 tab-style-01 wow animate__fadeIn"
               data-wow-delay="0.4s"
             >
-              <div class="row align-items-center">
-                <div class="col-12 col-md-6 text-end sm-margin-40px-bottom">
-                  <img
-                    src="images/product-3pl-overview.png"
-                    class="w-90 sm-w-100"
-                    alt=""
-                  />
-                </div>
-                <div class="col-12 col-lg-6 col-md-6">
-                  <span
-                  class="alt-font d-block font-weight-600 text-extra-medium ibex-text-color-dark"
-                    >물류, 그 본질에 충실합니다.</span
-                  >
-                  <h4
-                    class="alt-font font-weight-600 ibex-text-color-warehouse margin-30px-bottom"
-                  >
-                    warehouse Service
-                  </h5>
-                  <p class="w-85 lg-w-100">
-                    인천 공항 자유 무역 지역에 위치한 일반 창고와 보세창고를
-                    보유한 아아이벡스의 3PL서비스는 전자제품, 정보 통신
-                    제품의 특성에 맞는 3PL 서비스를 제공합니다.<br />
-                    정보 통신 제품에 적합한 물류구조와 전산재고 실재고의
-                    일치, 선입선출, 재고 기간 정보 제공 등 정확하고 편리한
-                    3PL 서비스를 제공합니다.
-                  </p>
+              <!-- start tab navigation -->
+              <ul
+                class="nav nav-tabs text-uppercase justify-content-center text-center alt-font font-weight-500 margin-3-rem-bottom lg-margin-5-rem-bottom md-margin-4-rem-bottom sm-margin-20px-bottom"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#pns1-tab"
+                    >warehouse Service</a
+                  ><span
+                    class="tab-border ibex-background-color-opacity8"
+                  ></span>
+                </li>
+                <li class="nav-item">
                   <a
-                    href="about-me.html"
-                    class="btn btn-medium ibex-background-color-warehouse text-white margin-15px-top"
-                    >Discover 3PL Service</a
-                  >
+                    class="nav-link active"
+                    data-bs-toggle="tab"
+                    href="#pns2-tab"
+                    >Operato Chef</a
+                  ><span
+                    class="tab-border ibex-background-color-opacity8"
+                  ></span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#pns3-tab"
+                    >Operato WMS</a
+                  ><span
+                    class="tab-border ibex-background-color-opacity8"
+                  ></span>
+                </li>
+
+                <!--li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#campaign-tab"
+                    >AR/VR Software</a
+                  ><span
+                    class="tab-border ibex-background-color-opacity8"
+                  ></span>
+                </li-->
+              </ul>
+              <!-- end tab navigation -->
+              <div class="tab-content">
+                <!-- start tab item -->
+                <div id="pns2-tab" class="tab-pane fade in active show">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-end sm-margin-40px-bottom">
+                      <img
+                        src="images/product-chef-overview.png"
+                        class="w-90 sm-w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6">
+                      <span
+                        class="alt-font d-block font-weight-500 text-extra-medium ibex-text-color-dark"
+                        >F&B management system</span
+                      >
+                      <h4
+                        class="alt-font font-weight-600 ibex-text-color-deep-green margin-30px-bottom"
+                      >
+                        Operato Chef
+                      </h4>
+                      <p class="w-90 lg-w-100">
+                        식음료 제조의 생산 관리는 특별합니다.<br />품질의 척도가
+                        되는 HACCP부터 원부자재의 성격까지, Operato Chef는
+                        식품제조업 특성에 맞게 고객 주문부터 출하까지 전 공정을
+                        쉽게 관리할 수 있도록 최적화된 기능을 제공합니다.<br />
+                        특히 현장 사정에 맞게 다양하게 공급되는 사용자 화면은
+                        현장의 부담을 없애고 편한 작업 환경을 보장합니다.
+                      </p>
+                      <a
+                        href="about-me.html"
+                        class="btn btn-medium ibex-background-color-deep-green text-white margin-15px-top"
+                        >Discover Operato Chef</a
+                      >
+                    </div>
+                  </div>
                 </div>
+                <!-- end tab item -->
+                <!-- start tab item -->
+                <div id="pns3-tab" class="tab-pane fade">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-end sm-margin-40px-bottom">
+                      <img
+                        src="images/product-wms-overview.png"
+                        class="w-90 sm-w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6">
+                      <span
+                        class="alt-font d-block font-weight-500 text-extra-medium ibex-text-color-dark"
+                        >Next-Generation Cloud Supply Chain</span
+                      >
+                      <h4
+                        class="alt-font font-weight-600 ibex-text-color-operato margin-30px-bottom"
+                      >
+                        Operato WMS
+                      </h4>
+                      <p class="w-85 lg-w-100">
+                        아이벡스의 현장 경험과 하티오랩의 기술력이 만나 탄생한
+                        Operato WMS(Warehouse Management System)은 창고 관리에
+                        필요한 모든 기능과 함께 고객과 소통하기 위한
+                        인터페이스를 제공합니다.<br />
+                        현장의 생산성은 향상되고, 작업은 쉽고 편해지는 새로운
+                        경험, Operato WMS가 제공합니다.
+                      </p>
+                      <a
+                        href="#"
+                        class="btn btn-medium ibex-background-color-operato text-white margin-15px-top"
+                        >Discover Operato WMS</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- end tab item -->
+                <!-- start tab item -->
+                <div id="pns1-tab" class="tab-pane fade">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-end sm-margin-40px-bottom">
+                      <img
+                        src="images/product-3pl-overview.png"
+                        class="w-90 sm-w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6">
+                      <span
+                      class="alt-font d-block font-weight-600 text-extra-medium ibex-text-color-dark"
+                        >물류, 그 본질에 충실합니다.</span
+                      >
+                      <h4
+                        class="alt-font font-weight-600 ibex-text-color-warehouse margin-30px-bottom"
+                      >
+                        warehouse Service
+                      </h5>
+                      <p class="w-85 lg-w-100">
+                        인천 공항 자유 무역 지역에 위치한 일반 창고와 보세창고를
+                        보유한 아아이벡스의 3PL서비스는 전자제품, 정보 통신
+                        제품의 특성에 맞는 3PL 서비스를 제공합니다.<br />
+                        정보 통신 제품에 적합한 물류구조와 전산재고 실재고의
+                        일치, 선입선출, 재고 기간 정보 제공 등 정확하고 편리한
+                        3PL 서비스를 제공합니다.
+                      </p>
+                      <a
+                        href="about-me.html"
+                        class="btn btn-medium ibex-background-color-warehouse text-white margin-15px-top"
+                        >Discover 3PL Service</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- end tab item -->
+                <!-- start tab item -->
+                <div id="campaign-tab" class="tab-pane fade">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-end sm-margin-40px-bottom">
+                      <img
+                        src="images/product-xr-overview.png"
+                        class="w-90 sm-w-100"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6">
+                      <span
+                        class="alt-font d-block text-extra-medium margin-10px-bottom ibex-text-color"
+                        >Better Industrial Sites</span
+                      >
+                      <h5 class="alt-font font-weight-500 text-extra-dark-gray">
+                        AR/VR Software
+                      </h5>
+                      <p class="w-85 lg-w-100">
+                        VIRNECT는 AR 기술을 통해 현장의 문제를 해결하고 개선하기
+                        위해 노력합니다.​ <br />현장에서 일어나는 문제를 고객의
+                        입장에서 분석하고, 현장에서 가장 필요한 가장 진보된
+                        솔루션을 제공합니다. <br />항상 고객 중심으로 생각하며
+                        고객과 함께 AR / XR 혁신을 만듭니다.
+                      </p>
+                      <a
+                        href="about-me.html"
+                        class="btn btn-medium btn-dark-gray margin-15px-top"
+                        >Discover AR/VR Software</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- end tab item -->
               </div>
             </div>
           </div>
