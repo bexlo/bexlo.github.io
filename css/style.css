@@ -12612,20 +12612,20 @@ header .header-cart-icon .cart-count {
 
 .white-move .swiper-slide,
 .white-move .swiper-wrapper {
-  cursor: url("../images/icon-move-light.png"), move;
+  cursor: move;
 }
 .black-move .swiper-slide,
 .black-move .swiper-wrapper {
-  cursor: url("../images/icon-move-black.png"), move;
+  cursor: move;
 }
 
 .vertical-white-move .swiper-slide,
 .vertical-white-move .swiper-wrapper {
-  cursor: url("../images/vertical-icon-move-light.png"), move;
+  cursor: move;
 }
 .vertical-black-move .swiper-slide,
 .vertical-black-move .swiper-wrapper {
-  cursor: url("../images/vertical-icon-move-black.png"), move;
+  cursor: move;
 }
 
 .swiper-pagination-medium .swiper-pagination-bullet {

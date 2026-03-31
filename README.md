@@ -11,11 +11,11 @@ The following assets are now referenced with `integrity` (`sha384`) and `crossor
 
 - `css/font-icons.min.css`: `sha384-WYF9R//8TDNSmRPhtLUDC3W+869FIi4IpkNdpbHXux1ODxh4sozA7pqI3338XFIg`
 - `css/theme-vendors.min.css`: `sha384-Dk7vK8PD6lQLnW2WEjsFaNxqT2q87oPJgZh+LR9YzYPhhcQ3pEJHF0fctADBbT0J`
-- `css/style.css`: `sha384-jdhR5S/AIfzTeRGzHOBJE48PGO3O54VVg+Gj1zGFQjRBWtqfXONXlMmbf+0nGW0w`
+- `css/style.css`: `sha384-GqNi0AWtltMpY1dIAW9My1N+eM70acy/QyaJUKCULuIkgrNpi2Y5mQHzjWW8neoG`
 - `css/responsive.css`: `sha384-Bpagb/rX6cwC/ewh/nJ6LSxDCvX8JRSLn5YxH0VdkryEG4TNsVdFue/N6Sr7Qqp9`
-- `css/ibex.css`: `sha384-ckDlYw2FzywCCw+QElvPi5+MEVBzAq7/P/rKK0DaTtgFdwvmOzK9LH0K7PWwK+23`
-- `js/jquery.min.js`: `sha384-kMhb2a62f93cRiCw1AxAD+mrzY1Cnqes7A2q76CO7RELATYAnimF4nUBzsGOuKf9`
-- `js/theme-vendors.min.js`: `sha384-z8LXTSwwZMaGsfupfuJ9Y5fCrhAsaPzsSfLoWk1n+9M2Jm2tacExLF4/C62CS0Nh`
+- `css/ibex.css`: `sha384-rVjYpdIpkZFuuPTyuq7+z5BE+8BDOzvWoZgAaHOfVXP/fVdUi440geKfBokZXvfg`
+- `js/jquery.min.js`: `sha384-1D5yKv88o8J0QouShbmMBe6qT++1JwqOQIiRnBRPy1daYGjvidTPhG4nHWnzKada`
+- `js/theme-vendors.min.js`: `sha384-uLvVdu/Y5oNth34ZdaoQi6QXc7j8q5+KXxJF0ExharLxnZ9TCbgqJo8ZGExywovw`
 - `js/main.js`: `sha384-XrEW719+CpMjMMOGvp5ToTnSZe/nJv1v641qhmyPKci+rRq3uPjYexmd7Jk7AtRk`
 
 ### CSP
