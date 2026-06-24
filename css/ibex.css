@@ -106,3 +106,68 @@
   border: 0;
   font-size: 30px;
 }
+
+/* CSP-safe replacements for inline styles */
+.bg-our-story {
+  background-image: url("../images/our-story-bg.jpg");
+}
+
+.bg-smartfactory-concept {
+  background-image: url("../images/biz-smartfactory-concept.png");
+}
+
+.bg-bigscreen1 {
+  background-image: url("../images/bigscreen1.png");
+}
+
+.bg-bigscreen2 {
+  background-image: url("../images/bigscreen2.png");
+}
+
+.bg-our-team {
+  background-image: url("../images/our-team-bg2.jpg");
+}
+
+.bg-company-location-card {
+  background-image: url("https://via.placeholder.com/1920x1100");
+}
+
+.bg-chef-overview {
+  background-image: url("../images/home-corporate-hand-crafted-bg.jpg");
+}
+
+.bg-chef-quality {
+  background-image: url("../images/bg-quality-data-free.png");
+}
+
+.bg-chef-bizarea1 {
+  background-image: url("../images/bizarea-01-free.png");
+}
+
+.bg-chef-bizarea2 {
+  background-image: url("../images/bizarea-02.png");
+}
+
+.bg-chef-bizarea3 {
+  background-image: url("../images/bizarea-03-free.png");
+}
+
+.section-border-top-gray {
+  border-top: 3px solid #999;
+}
+
+.layout-flex-2 {
+  flex: 2;
+}
+
+.layout-flex-1 {
+  flex: 1;
+}
+
+.text-size-110 {
+  font-size: 1.1em;
+}
+
+.section-max-height-490 {
+  max-height: 490px;
+}
